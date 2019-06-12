@@ -24,9 +24,19 @@ body{
     height:300px;
     width:300px;
     border-radius: 700px;
+    display: block;
+    margin:auto;
     padding: auto;
-    margin: 50px 50px 20px 50%;
+    text-align: center;
+    margin-top:20px;
     
+}
+@media(max-width:772px)
+{
+    #profilepic{
+         margin-bottom:10px;
+    }
+   
 }
 .home_container{
     background-color:#fea49f ;
@@ -100,9 +110,15 @@ body{
 #Skills .carousel-inner{
     text-align: center;
 }
-#Skills{
-    background: ;
+/*
+@media (min-width:844px)
+{
+    #Skills img{
+        height: 0.5%;
+        width:15%;
+    }
 }
+*/
 .carousel-control-next .carousel-control-prev{
     filter: invert(100%);
     
@@ -160,7 +176,7 @@ hr{
     text-align: center;
 }
 footer{
-    background: #f70776;
+    background:#f0d879;;
     margin: 0;
 }
 #Contact .card-body{
